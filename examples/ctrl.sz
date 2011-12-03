@@ -4,7 +4,7 @@ PHYSICS_CONFIG_FILE   =    phy_decay_turb.sz
 
 READ_INIT_PARTICLES   =    1
 
-INPUT_NAME            =    decay32_
+INPUT_NAME            =    prtl_
 
 INPUT_FORMAT          =    1
 

@@ -112,7 +112,9 @@ void ZS_Projection::projection_parameter_pb()
               boundary_EDS();
 							
               neighbour_id = ((neighbour_index[0] + cell_num[0])%cell_num[0])  + ((neighbour_index[1] + cell_num[1])%cell_num[1]) * cell_num[0];
-							
+					 if ((ctr_kernel_type == 3) || (ctr_kernel_type == 4))
+                    projection_interaction_remesh();
+else		
               projection_interaction_nsym();
             }
         }

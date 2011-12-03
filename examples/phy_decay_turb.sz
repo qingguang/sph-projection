@@ -1,14 +1,14 @@
 ######
 
-num_dim = 3
+num_dim = 2
 
-min_length = 0.0,0.0,0.0
+min_length = 0.0,0.0 
 
-max_length = 6.2831853,6.2831853,6.2831853
+max_length = 0.001,0.001
 
-num_particles = 32,32,32
+num_particles = 40,40
 
-num_macroparticles = 10,10,10
+num_macroparticles = 22,22 
 
 overlap = 3
 
@@ -22,7 +22,7 @@ time_end = -1
 
 step_start = 1
 
-step_end = 2
+step_end = 7
 
 v0 = 1.0
 
@@ -54,7 +54,7 @@ Ma = -1
 
 gamma_dot = 0.0
 
-body_force = 0.0,0.0,0.0
+body_force = 0.0,0.0 
 
-bcdef = 1,1,1,1,1,1
+bcdef = 1,1,1,1 
 
